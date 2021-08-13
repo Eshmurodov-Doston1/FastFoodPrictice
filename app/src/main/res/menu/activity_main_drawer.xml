@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_frame"
+            android:title="Aksiyalar" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/settings"
+            android:title="Sozlamalar" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/language"
+            android:title="Tilni sozlash" />
+        <item
+            android:id="@+id/tell"
+            android:icon="@drawable/ic_frame_2"
+            android:title="Qo`llab quvvatlasj" />
+        <item
+            android:id="@+id/offert"
+            android:icon="@drawable/ic_frame_3"
+            android:title="Offerta shartlari" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/ic_frame_4"
+            android:title="Buyurtmalar tarixi" />
+    </group>
+</menu>
